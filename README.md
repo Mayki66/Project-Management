@@ -1,4 +1,4 @@
-﻿# 🎓 Portail Interactif PMP — PMBOK 8 & ECO 2026
+# 🎓 Portail Interactif PMP — PMBOK 8 & ECO 2026
 
 Plateforme web interactive de préparation à la certification **PMI-PMP**, développée en SPA (Single-Page Application) 100% front-end.
 
