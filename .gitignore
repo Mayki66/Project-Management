@@ -1,0 +1,74 @@
+﻿# =============================================
+# SÉCURITÉ — Documents propriétaires PMI (copyright)
+# Ne jamais publier ces fichiers dans un dépôt public
+# =============================================
+PMP/
+
+# =============================================
+# Scripts Python de build & maintenance
+# Utilitaires développeur — non nécessaires en production
+# =============================================
+scratch/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =============================================
+# Sources JSON brutes
+# Les fichiers .js compilés (exam-questions-data.js, glossary-data.js)
+# sont suffisants pour le déploiement Vercel
+# =============================================
+exam_questions.json
+glossary.json
+
+# =============================================
+# Node.js (si Tailwind est compilé localement à l'avenir)
+# =============================================
+node_modules/
+dist/
+.cache/
+npm-debug.log*
+yarn-error.log*
+
+# =============================================
+# Systèmes d'exploitation
+# =============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+.BIN/
+
+# Linux
+*~
+
+# =============================================
+# Éditeurs & IDEs
+# =============================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =============================================
+# Logs & fichiers temporaires
+# =============================================
+*.log
+*.tmp
+*.bak
+*.orig
+
+# =============================================
+# Vercel (dossier de cache local)
+# =============================================
+.vercel/
