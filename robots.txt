@@ -1,0 +1,8 @@
+﻿# robots.txt — Portail PMP
+# Accès public autorisé mais on évite l'indexation du contenu pédagogique
+User-agent: *
+Allow: /
+
+# Bloquer l'indexation des fichiers de données JS brutes
+Disallow: /exam-questions-data.js
+Disallow: /glossary-data.js

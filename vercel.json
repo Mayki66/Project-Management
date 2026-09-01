@@ -11,14 +11,9 @@
       ]
     },
     {
-      "source": "/exam-questions-data.js",
+      "source": "/:file.js",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=3600" }
-      ]
-    },
-    {
-      "source": "/glossary-data.js",
-      "headers": [
+        { "key": "Content-Type", "value": "application/javascript; charset=utf-8" },
         { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=3600" }
       ]
     }
